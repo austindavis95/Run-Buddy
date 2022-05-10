@@ -1,62 +1,138 @@
-body {
-    /* more on this crazy alphanumerical value in a minute! */
-    color: #39a6b2;
-    font-family: Helvetica, Arial, sans-serif;
-    position: relative;
-    margin: 0;
-    padding: 0;
-  }
-  
-  h1 {
-    font-weight: bold;
-    font-size: 36px;
-    color: #fce138;
-    margin: 10px;
-    display: inline-block;
-  }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-  header a {
-    text-decoration: none;
-    color: #fce138;
-  }
-  header nav {
-    float: right;
-    display: inline-block;
-    margin: 7px 0;
-  }
-  header nav ul li {
-    display: inline;
-  }
-  header nav ul li a {
-    margin: 0 30px;
-    font-weight: lighter;
-    font-size: 22px;
-  }
-  
-  
-  h2,
-  h3 {
-    text-align: left; 
-    margin: 0; 
-  }
-  
-  img {
-    display: block;
-  }
-  
-  header {
-    top: 0;
-    z-index: 2;
-    width: 100%;
-    background-color: #39a6b2
-  }
-  
-  /* Box 2 in Square 1 */
-  #relative-box-2 {
-    /* TODO: Set the position so it is centered in Square 1 */
-  }
-  
-  /* Box 2 in Square 2 */
-  #absolute-box-2 {
-    /* TODO: Set the position so it is outside of the upper-right corner of Square 2 */
-  }
+body {
+  /* more on this crazy alphanumerical value in a minute! */
+  color: #39a6b2;
+  font-family: Helvetica, Arial, sans-serif;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 36px;
+  color: #fce138;
+  margin: 10px;
+  display: inline-block;
+}
+
+section {
+  padding: 60px;
+}
+
+header a {
+  text-decoration: none;
+  color: #fce138;
+}
+
+header nav {
+  float: right;
+  display: inline-block;
+  margin: 7px 0;
+}
+
+header nav ul li {
+  display: inline;
+}
+
+header nav ul li a {
+  margin: 0 30px;
+  font-weight: lighter;
+  font-size: 22px;
+}
+
+h2 h3 img {
+  display: block;
+}
+
+header {
+  top: 0;
+  z-index: 2;
+  width: 100%;
+  background-color: #39a6b2
+}
+
+footer {
+  background: #fce138;
+  width: 100%;
+  padding: 40px 35px;
+}
+
+footer h2 {
+  display: inline;
+  color: #024e76;
+  font-size: 30px;
+  margin: 0;
+}
+
+footer div {
+  float: right;
+  line-height: 1.5;
+  text-align: right;
+}
+
+footer a {
+  color: #024e76;
+}
+
+/* Hero Style Start */
+.hero {
+  background-image: url("https://static.fullstack-bootcamp.com/module-1/hero-bg%2Ejpg");
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.hero-form {
+  background-color: #fce138;
+  padding: 20px;
+  width: 500px;
+  color: #024e76;
+  border: solid 3px #024e76;
+  position: absolute;
+  bottom: 120px;
+  right: 140px;
+}
+
+.hero-form h3 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.hero-form p {
+  margin: 5px 0 15px 0;
+}
+
+.hero-form label {
+  margin: 0 5px;
+}
+
+.hero-form button {
+  color: #fce138;
+  background-color: #024e76;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+.form-input {
+  border: 1px solid #024e76;
+  display: block;
+  padding: 7px 15px;
+  font-size: 16px;
+  color: #024e76;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+
+/* Box 2 in Square 2 */
+#absolute-box-2 {
+  /* TODO: Set the position so it is outside of the upper-right corner of Square 2 */
+}
