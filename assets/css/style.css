@@ -13,7 +13,7 @@ body {
   padding: 0;
 }
 
-h1 {
+header h1 {
   font-weight: bold;
   font-size: 36px;
   color: #fce138;
@@ -32,7 +32,6 @@ header a {
 
 header nav {
   float: right;
-  display: inline-block;
   margin: 7px 0;
 }
 
@@ -46,7 +45,7 @@ header nav ul li a {
   font-size: 22px;
 }
 
-h2 h3 img {
+h2, h3, img {
   display: block;
 }
 
@@ -272,6 +271,15 @@ footer a {
 
 .contact-info a {
   color: #fce138;
+}
+
+.page-title {
+  color: #fce138;
+  display: inline-block;
+  border-bottom: 4px solid #fce138;
+  padding: 0 80px 15px 80px;
+  font-weight: normal;
+  font-size: italic;
 }
 
 /* REACH OUT STYLES END */
