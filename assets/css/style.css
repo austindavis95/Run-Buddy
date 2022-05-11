@@ -17,8 +17,8 @@ header h1 {
   font-weight: bold;
   font-size: 36px;
   color: #fce138;
-  margin: 10px;
-  display: inline-block;
+  margin: 0px;
+  display: flex;
 }
 
 section {
@@ -27,11 +27,11 @@ section {
 
 header a {
   text-decoration: none;
-  color: #fce138;
+  color: #fce138; 
+  justify-content: space-between;
 }
 
 header nav {
-  float: right;
   margin: 7px 0;
 }
 
@@ -54,6 +54,7 @@ header {
   z-index: 2;
   width: 100%;
   background-color: #39a6b2
+  
 }
 
 footer {
